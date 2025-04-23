@@ -6,7 +6,7 @@ from langchain_community.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain_community.chat_models import ChatOpenAI
 
-
+OPENAI_API_KEY = "" #No leak
 
 
 #Upload PDF files
